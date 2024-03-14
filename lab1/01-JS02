@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <title>Практична робота_01-JS02</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Button</title>
 </head>
+
 <body>
-Сторінка привітання <br>
-"Hello WORLD"<br>
-<button value="Кнопка вітання" id="toggleButton">Привітати СВІТ</button>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
+
+    <h1 id="Heading">Заголовок</h1>
+    <button id="Button">Видалити/Відновити</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
             const Heading = document.getElementById("Heading");
             const Button = document.getElementById("Button");
 
@@ -27,7 +29,8 @@
                 }
             });
         });
-</script>
-</body>
-</html>
+    </script>
 
+</body>
+
+</html>
